@@ -23,7 +23,7 @@ __Other__ : Auto indentation, auto pairing, status line, cattuppucin colorscheme
 >You will have to manually install language server protocols on your own platform, this is because [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) only tells Neovim how to connect to LSPs.
 * Lua Language Server
   <details>
-  <summary> Installation Guide</summary>
+  <summary> Installation </summary>
 
   <b>Windows</b> : `scoop install lua-language-server`
   
@@ -60,3 +60,7 @@ __Other__ : Auto indentation, auto pairing, status line, cattuppucin colorscheme
   
   </details>
 # Installation
+```
+git clone git@github.com:EdwardVNguyen/nvim-dotfiles.git
+
+```
