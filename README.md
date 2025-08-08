@@ -1,7 +1,9 @@
 # Neovim-dotfiles
 A minimalist neovim set up designed for C/C++ development and web development. Feel free to make any suggestions :smile:
+<video width="630" height="300" autoplay loops src="https://github.com/user-attachments/assets/07bfe285-e243-45bb-b6e2-feb9df0ce9fc"></video>
 
 # Features
+
 __Plugin Manager__ : [LazyVim](https://github.com/LazyVim/LazyVim)
 
 __Treesitter__ : [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
