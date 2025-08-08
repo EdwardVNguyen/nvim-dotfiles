@@ -1,5 +1,5 @@
 # Neovim-dotfiles
-A minimalist neovim set up designed for C/C++ development and web development. Feel free to make any suggestions :smile:
+A minimalist neovim set up designed for C/C++ and web development. Feel free to make any suggestions :smile:
 
 <div align=center> 
   <img src="movingImage.gif" alt="scrolling through neovim screen" width="1000"> 
