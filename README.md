@@ -4,7 +4,7 @@
  
 </div>
 
-<p align=center> A minimalist neovim set up designed for C/C++ development and web development. Feel free to make any suggestions :smile: </p>
+<p align=center> A minimalist Neovim set up designed for C/C++ development and web development. Feel free to make any suggestions :smile: </p>
 
 <div align=center> 
   <img src="movingImage.gif" alt="scrolling through neovim screen" width="1000"> 
@@ -16,7 +16,7 @@
 
 * __Treesitter__ : [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
-<img src="gettingDefintion.png" alt="image showing telescope in action" width="400">
+   <img src="gettingDefintion.png" alt="image showing telescope in action" width="400">
 
   * Installed Languages: C, C++, CSS, Lua, Vim, Vimdoc, Query, Elixer, Heex, Javascript, HTML
 
@@ -28,7 +28,7 @@
 
 * __Fuzzy Finder__ : [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 
 
-<img src="telescopeInAction.png" alt="image showing telescope in action" width="400">
+   <img src="telescopeInAction.png" alt="image showing telescope in action" width="400">
 
 * __Other__ : Auto indentation, auto pairing, status line, cattuppucin colorscheme
 
