@@ -39,39 +39,46 @@
 * Lua Language Server
   <details>
   <summary> Installation </summary>
-
-  <b>Windows</b> : `scoop install lua-language-server`
-  
-  <b>macOS</b> : `brew install lua-language-server`
-  
-  <b>Linux/Other</b> : [Official Website](https://luals.github.io/#neovim-install)
+    <p> 
     
+    <b>Windows</b> : `scoop install lua-language-server`
+  
+    <b>macOS</b> : `brew install lua-language-server`
+  
+    <b>Linux/Other</b> : [Official Website](https://luals.github.io/#neovim-install)
+  
+    </p>
   </details>
 
 * Clangd
   <details>
     <summary> Installation </summary>
+     <p>
 
-    <b>Windows</b> : [Windows Download](https://releases.llvm.org/download.html)
+   <b>Windows</b> : [Windows Download](https://releases.llvm.org/download.html)
 
-    <b>macOS</b> : `brew install llvm`
+  <b>macOS</b> : `brew install llvm`
 
-    <b>Debian/Ubuntu</b> :
+   <b>Debian/Ubuntu</b> :
   ```
   sudo apt-get install clangd-12
   sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-12 100
   ```
 
-    <b>Other</b> : [Official Website](https://clangd.llvm.org/installation)  
-
+  <b>Other</b> : [Official Website](https://clangd.llvm.org/installation)  
+   </p>
     </details>
 * Typescript Language Server
   <details>
     <summary> Installation </summary>
 
+    <p>
+
     <b>Windows/Linux</b> : [Official Website](https://github.com/typescript-language-server/typescript-language-server)
 
     <b>macOS</b> `brew install typescript-language-server`
+
+    </p>
   
   </details>
 # :rocket: Installation
