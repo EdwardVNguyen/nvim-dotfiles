@@ -18,11 +18,9 @@ __Fuzzy Finder__ : [telescope.nvim](https://github.com/nvim-telescope/telescope.
 
 __Other__ : Auto indentation, auto pairing, status line, cattuppucin colorscheme
 
-# Installation
-
+# Dependencies
 >[!NOTE]
 >You will have to manually install language server protocols on your own platform, this is because [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) only tells Neovim how to connect to LSPs.
-### Dependencies
 * Lua Language Server
   <details>
   <summary> Installation Guide</summary>
@@ -61,3 +59,4 @@ __Other__ : Auto indentation, auto pairing, status line, cattuppucin colorscheme
     <b>macOS</b> `brew install typescript-language-server`
   
   </details>
+# Installation
