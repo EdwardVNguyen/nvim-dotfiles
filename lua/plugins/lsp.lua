@@ -16,12 +16,26 @@ return
       },
     },
     config = function()
-    local lspconfig = require("lspconfig")
 
-      lspconfig.lua_ls.setup {}
-      lspconfig.clangd.setup {}
-      lspconfig.ts_ls.setup {}
-      lspconfig.pyright.setup {}
+    local function setup(server_name, cmd)
+        vim.lsp.config[server_name] = {
+          cmd = cmd,
+          root_dir = vim.fs.root(0, { ".git", "package.json", "pyproject.toml", "Makefile" }),
+        }
+        vim.lsp.start(vim.lsp.config[server_name])
+      end
+
+      -- Lua LS
+      setup("lua_ls", { "lua-language-server" })
+
+      -- C/C++ (clangd)
+      setup("clangd", { "clangd" })
+
+      -- TypeScript / JavaScript
+      setup("ts_ls", { "typescript-language-server", "--stdio" })
+
+      -- Python (pyright or basedpyright)
+      setup("pyright", { "pyright-langserver", "--stdio" })
     end,
   }
 }
