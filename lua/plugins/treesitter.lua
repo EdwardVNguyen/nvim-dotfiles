@@ -13,6 +13,7 @@ return
                              "typescript" },
         highlight = { enable = true },
         indent = { enable = false },
+        autotag = { enable = true },
       })
   end
 }
