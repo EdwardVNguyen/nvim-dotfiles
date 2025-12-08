@@ -21,6 +21,7 @@ return
       lspconfig.lua_ls.setup {}
       lspconfig.clangd.setup {}
       lspconfig.ts_ls.setup {}
+      lspconfig.pyright.setup {}
     end,
   }
 }
