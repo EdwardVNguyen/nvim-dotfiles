@@ -3,6 +3,9 @@ require("config.lazy")
 -- adds numbers to each line
 vim.o.number = true
 
+-- relative numbers
+vim.wo.relativenumber = true
+
 -- identation options
 vim.opt.expandtab = true
 vim.opt.tabstop = 2
