@@ -14,7 +14,7 @@ vim.opt.shiftwidth = 2
 -- allow pasting from clipboard
 vim.opt.clipboard = "unnamedplus"
 
-
-
+-- make light numbers white so I can see them better
+vim.api.nvim_set_hl(0, 'LineNr', {fg = '#C4D9FF'} )
 
 
