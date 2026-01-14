@@ -32,6 +32,8 @@
 
 * __Other__ : Auto indentation, auto pairing, status line, cattuppucin colorscheme
 
+* Mason
+
 
 # :zap: Dependencies
 >[!NOTE]
@@ -81,6 +83,10 @@
     </p>
   
   </details>
+
+* Pyright: Install with Mason
+* Emmet-language-server: Install with Mason
+  
 # :rocket: Installation
 ```
 git clone git@github.com:EdwardVNguyen/nvim-dotfiles.git
