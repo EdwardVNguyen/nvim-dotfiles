@@ -35,6 +35,8 @@ return {
       setup("emmet_language_server", { "emmet-language-server", "--stdio" }, {
         filetypes = { "html", "css", "javascriptreact", "typescriptreact", "vue" }
       })
+      -- C#
+      setup("csharp-language-server", { "csharp-language-server"})
     end,
   }
 }
