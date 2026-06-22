@@ -10,7 +10,7 @@ return
                              "lua", "vim", "vimdoc", 
                              "query", "elixir", "heex", 
                              "javascript", "html", "python",
-                             "typescript" },
+                             "typescript", "go" },
         highlight = { enable = true },
         indent = { enable = false },
       })

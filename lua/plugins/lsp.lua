@@ -37,6 +37,8 @@ return {
       })
       -- C#
       setup("csharp-language-server", { "csharp-language-server"})
+      -- Go
+      setup("gopls", {"gopls"})
     end,
   }
 }
