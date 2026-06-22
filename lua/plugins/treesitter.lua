@@ -7,7 +7,7 @@ return
 
     configs.setup({
         ensure_installed = { "c", "c_sharp", "cpp", "css", 
-                             "lua", "vim", "vimdoc", 
+                             "cmake", "lua", "vim", "vimdoc", 
                              "query", "elixir", "heex", 
                              "javascript", "html", "python",
                              "typescript", "go" },

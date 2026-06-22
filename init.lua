@@ -17,4 +17,11 @@ vim.opt.clipboard = "unnamedplus"
 -- make light numbers white so I can see them better
 vim.api.nvim_set_hl(0, 'LineNr', {fg = '#C4D9FF'} )
 
-
+-- treat cppm, ixx, and mpp files like cpp files so that parser can read it
+vim.filetype.add({
+  extension = {
+    cppm = 'cpp',
+    ixx = 'cpp',
+    mpp = 'cpp',
+  }
+})
