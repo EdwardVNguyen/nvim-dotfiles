@@ -25,3 +25,7 @@ vim.filetype.add({
     mpp = 'cpp',
   }
 })
+
+vim.diagnostic.config({
+  virtual_text = true,
+})
